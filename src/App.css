@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  max-width: 80%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button {
+  border-style: dashed;
+  padding: 1em;
+  margin: 2em;
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+pre {
+  text-align: left;
+}
