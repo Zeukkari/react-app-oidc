@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { triggerLoginFlow, triggerLogoutFlow, configuration as defaultConfig } from './auth/authService';
+import { triggerLoginFlow, triggerLogoutFlow, configuration as defaultConfig } from './auth/AuthService';
 import OidcManager from './auth/OidcManager';
 import { User } from 'oidc-client';
 
